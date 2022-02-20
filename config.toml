@@ -1,0 +1,4 @@
+baseurl = "https://arunpalaniappan.github.io/electronics-club-ms-website/"
+title = "elec-club-website"
+languageCode = "en-us"
+theme = "vex-hugo"
