@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "https://demo.gethugothemes.com/vex/examplesite/"
+baseurl = "https://arunpalaniappan.github.io/Electronics-Club-MS-Website//"
 title = "Mega Session"
 theme = "vex-hugo"
 # post excert
