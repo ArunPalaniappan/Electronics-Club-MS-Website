@@ -1,0 +1,52 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{- if $data.homepage.banner.enable }}
+{{- with $data.homepage.banner }}
+<!-- hero area -->
+<section class="section">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-6 text-center mb-5 mb-md-0" style="display: flex; align-items: center;">
+				<img class="img-fluid" style="margin: auto; max-width: 90%; max-height: 90%; height: 400px;" src="{{ .image | absURL }}" alt="">
+			</div>
+			<div class="col-md-6 align-self-center text-center text-md-left">
+				<div class="block">
+					<h1 class="font-weight-bold mb-4 font-size-60 font-family-arial">{{ .title | markdownify }}</h1>
+
+					<p class="mb-4">{{ .content | markdownify }}</p>
+					<div class="mouse_scroll">
+
+						<div class="mouse">
+							<div class="wheel"></div>
+						</div>
+						<div>
+							<span class="m_scroll_arrows unu"></span>
+							<span class="m_scroll_arrows doi"></span>
+							<span class="m_scroll_arrows trei"></span>
+						</div>
+				</div>
+					<!-- <div style="display: flex; justify-content: center;">
+						<a href="#features-section" ><img style="margin: auto;" src="https://img.icons8.com/ios/50/000000/expand-arrow--v1.png"/></a>
+					</div> -->
+					
+					<!-- {{ if .button.enable }}
+					{{ with .button }} -->
+					<!-- <div>
+						<a href="#features" class="btn btn-main">{{.label}}</a>
+						{{ end }}
+						{{ end }}
+						{{ if .button2.enable }}
+						{{ with .button2 }}
+						<a href="#features" class="btn btn-main">{{.label}}</a>
+						{{ end }}
+						{{ end }}
+					</div> -->
+					
+				</div>
+			</div>
+		</div><!-- .row close -->
+	</div><!-- .container close -->
+</section><!-- header close -->
+{{- end }}
+{{- end }}

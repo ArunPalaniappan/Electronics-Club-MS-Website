@@ -1,0 +1,150 @@
+############################# banner ############################
+banner:
+  enable: true
+  title: " Dev Board 2.O"
+  content: "Designed an In-house development board around the ESP32 WROOM SoC and comes with WiFi and Bluetooth functionalities. It has an inbuilt IMU sensor used for orientation measurements. It is fairly compact and it has the CFI and Electronics Club logos, giving it a classy look."
+  image: "images/db1.svg"
+  # button:
+  #   enable: true
+  #   label: "Shields"
+  #   link: ""
+  # button2:
+  #   enable: true
+  #   label: "Read more"
+  #   link: ""
+
+############################# Feature ############################
+features:
+  enable: true
+  title: "Main features of our board"
+  image: "images/esp.jpg"
+
+  # feature at the left of the image
+  left_side:
+    # feature item loop
+    - title: "Clock frequency"
+      icon: "https://img.icons8.com/ios/32/000000/speedometer.png"
+      content: "240 MHz"
+
+      # feature item loop
+    - title: "Cores"
+      icon: "https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/40/000000/external-cpu-cyber-security-kiranshastry-lineal-kiranshastry-4.png"
+      content: "2"
+
+      # feature item loop
+    - title: "GPIO Pins"
+      icon: "https://img.icons8.com/ios/32/000000/network-cable.png"
+      content: "Digital - 24, Analog - 15"
+
+  # feature at the right of the image
+  right_side:
+    # feature item loop
+    - title: "Peripheral Interfaces"
+      icon: "https://img.icons8.com/external-outline-geotatah/32/000000/external-connect-sensorization-of-things-outline-geotatah-3.png"
+      content: "SPI, I2C, I2S, UART"
+
+      # feature item loop
+    - title: "Flash Memory"
+      icon: "https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/32/000000/external-memory-card-photography-vitaliy-gorbachev-lineal-vitaly-gorbachev.png"
+      content: "16 MB"
+
+      # feature item loop
+    - title: "Connectivity"
+      icon: "https://img.icons8.com/external-flatart-icons-outline-flatarticons/35/000000/external-world-online-survey-flatart-icons-outline-flatarticons.png"
+      content: "WiFi, Bluetooth"
+
+############################# Feature ############################
+
+
+
+############################# promo ############################
+promo:
+  enable: true
+  image: "images/esp.jpg"
+  title: "Designed by professionals of Elec Club"
+  content:
+    "- Built around the powerful and versatile Dual-Core ESP WROOM 32 SoC <br />
+     - With a Flash memory of 16 MB (4X of standard ESP32) and built-in WiFi and Bluetooth <br />
+     - With Secure Boot mechanism and enhanced PSRAM Performace <br />
+     - Fast, Flexible, and Flamboyant with applications ranging from IoT to AI on Edge"
+
+############################# About Product #######################
+about_product:
+  enable: true
+  title: "Why Choose our Board and shields"
+  items:
+    # about product item loop
+    - image: "images/esp.jpg"
+      title: "L293D Motor Driver Shield"
+      content1:
+        "Custom Motor Driver Shield ideal for DC and Stepper Motors."
+      content2:
+        "Plugs right into the Electronics Club Dev Board 2.0."
+      content3:
+        "Perfect for Robotics and Mechatronics projects."
+      button:
+        enable: false
+        label: "Check Features"
+        link: ""
+
+    # about product item loop
+    - image: "images/esp.jpg"
+      title: "Smartwatch Shield"
+      content1:
+        "Custom peripheral shield supporting an assorted array of peripherals."
+      content2:
+        "Plug-in and Play with IMU, OLED and Joystick."
+      content3:
+        "Create your own games, build your own smart watch and what not!"
+      button:
+        enable: false
+        label: "Check Features"
+        link: ""
+
+#################################### Products ########################
+
+################################## Subscription ###################
+subscription:
+  enable: true
+  bg_image: "images/call-to-action.jpg"
+  title: "Get Product Updates"
+  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  placeholder: "Your Email Address Here"
+
+############################## Testimonial ##########################
+testimonial:
+  enable: true
+  title: "Reviews"
+  testimonial_item:
+    # testimonial item loop
+    - name: "Attendee 1"
+      designation: "Mega Session 2021"
+      image: "images/avater.png"
+      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+
+    # testimonial item loop
+    - name: "Attendee 2"
+      designation: "Mega Session 2021"
+      image: "images/avater.png"
+      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+
+    # testimonial item loop
+    - name: "Attendee 3"
+      designation: "Mega Session 2021"
+      image: "images/profile.jpg"
+      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+    
+    - name: "Attendee 4"
+      designation: "Mega Session 2021"
+      image: "images/profile.jpg"
+      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+
+    - name: "Attendee 5"
+      designation: "Mega Session 2021"
+      image: "images/profile.jpg"
+      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+
+    - name: "Attendee 6"
+      designation: "Mega Session 2021"
+      image: "images/profile.jpg"
+      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
