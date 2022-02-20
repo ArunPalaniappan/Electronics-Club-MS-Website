@@ -1,4 +1,4 @@
-baseurl = "https://arunpalaniappan.github.io/electronics-club-ms-website/"
+baseurl = "https://arunpalaniappan.github.io/Electronics-Club-MS-Website/"
 title = "elec-club-website"
 languageCode = "en-us"
 theme = "vex-hugo"
