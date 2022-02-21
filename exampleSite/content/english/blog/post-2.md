@@ -1,7 +1,7 @@
 ---
-title: "Why You Should Buy a Smart Watch."
+title: "Python for embedded system"
 date: 2019-10-17T11:22:16+06:00
-image: "images/showcase/showcase-2.png"
+image: "images/pyth.png"
 description : "this is a meta description"
 draft: false
 ---

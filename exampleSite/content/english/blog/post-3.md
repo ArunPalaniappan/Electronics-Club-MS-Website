@@ -1,7 +1,7 @@
 ---
-title: "Best Watch Strap In Your Budget"
+title: "IoT Whether Station"
 date: 2019-10-17T11:22:16+06:00
-image: "images/showcase/showcase-3.png"
+image: "images/WS.png"
 description : "this is a meta description"
 draft: false
 ---
